@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Photos",
-    "slug": "Photos",
+    "name": "MateuszJanickiCamera1",
+    "slug": "MateuszJanickiCamera1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,9 +17,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.projekty.mateuszjanicki.cameraapp1"
     },
     "android": {
+      "package": "com.projekty.mateuszjanicki.cameraapp1",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
